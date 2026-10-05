@@ -1,0 +1,21 @@
+# Données personnelles : ne JAMAIS publier
+data/profil.txt
+data/reglages.json
+sorties/*
+!sorties/.gitkeep
+
+# Documents de l'école (droits d'auteur) : à garder en local
+modeles/*
+!modeles/.gitkeep
+references/*
+!references/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/

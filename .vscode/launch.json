@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "MELcv : lancer l'application",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "melcv",
+      "args": ["--sans-navigateur"],
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "justMyCode": true
+    },
+    {
+      "name": "MELcv : tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-q"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
